@@ -6,6 +6,6 @@ on:
 
 jobs:
   snyk-cli:
-    uses: atko-security/devsecops-tooling/.github/workflows/sca-scan.yml@main
+    uses: x4v13r64/devsecops-tooling/.github/workflows/sca-scan.yml@main
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
